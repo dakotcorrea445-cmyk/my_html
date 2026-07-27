@@ -91,8 +91,7 @@ required>
 <input
 type="checkbox"
 name="hobby"
-value="玩"
-required>
+value="玩">
 
 玩
 
@@ -100,8 +99,7 @@ required>
 <input
 type="checkbox"
 name="hobby"
-value="游戏"
-required>
+value="游戏">
 
 游戏
 
@@ -109,8 +107,7 @@ required>
 <input
 type="checkbox"
 name="hobby"
-value="编程"
-required>
+value="编程">
 
 编程
 
@@ -179,6 +176,14 @@ alert("虚拟信息填表")
 
 </script>
 
+
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="d3bd1f53-03ac-427e-bbdb-650850d6252e">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit Form</button>
+</form>
 
 </body>
 
